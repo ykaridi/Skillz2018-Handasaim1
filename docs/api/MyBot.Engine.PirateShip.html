@@ -1,0 +1,1691 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PirateShip
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PirateShip
+   ">
+    <meta name="generator" content="docfx 2.29.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                <ul class="nav level1 navbar-nav">
+                  <li class="">
+                    <a href="../articles/intro.html" title="Articles" class="">Articles</a>
+                  </li>
+                  <li class="active">
+                    <a href="../api/index.html" title="API Documentation" class="active">API Documentation</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="MyBot.html" title="MyBot" class="">MyBot</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="MyBot.Bot.html" title="Bot" class="">Bot</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="MyBot.Engine.html" title="MyBot.Engine" class="">MyBot.Engine</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="MyBot.Engine.DataStore.html" title="DataStore" class="">DataStore</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.EngineExtensions.html" title="EngineExtensions" class="">EngineExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Extensions.html" title="Extensions" class="">Extensions</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.GameEngine.html" title="GameEngine" class="">GameEngine</a>
+                          </li>
+                          <li class="active">
+                            <a href="MyBot.Engine.PirateShip.html" title="PirateShip" class="active">PirateShip</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Squad.html" title="Squad" class="">Squad</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Tuple-3.html" title="Tuple&lt;T, U, W&gt;" class="">Tuple&lt;T, U, W&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Tuple-2.html" title="Tuple&lt;T, U&gt;" class="">Tuple&lt;T, U&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Tuple-1.html" title="Tuple&lt;T&gt;" class="">Tuple&lt;T&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="MyBot.Engine.Delegates.html" title="MyBot.Engine.Delegates" class="">MyBot.Engine.Delegates</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="MyBot.Engine.Delegates.DefenseStats.html" title="DefenseStats" class="">DefenseStats</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Delegates.Delegates.html" title="Delegates" class="">Delegates</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Delegates.Delegates.DefenseFunction-1.html" title="Delegates.DefenseFunction&lt;T&gt;" class="">Delegates.DefenseFunction&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Delegates.Delegates.FilterFunction-1.html" title="Delegates.FilterFunction&lt;T&gt;" class="">Delegates.FilterFunction&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Delegates.Delegates.PirateForeach.html" title="Delegates.PirateForeach" class="">Delegates.PirateForeach</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Delegates.Delegates.PushMapper.html" title="Delegates.PushMapper" class="">Delegates.PushMapper</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Delegates.Delegates.ScoringFunction-1.html" title="Delegates.ScoringFunction&lt;T&gt;" class="">Delegates.ScoringFunction&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Delegates.PushMapping.html" title="PushMapping" class="">PushMapping</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="MyBot.Engine.Handlers.html" title="MyBot.Engine.Handlers" class="">MyBot.Engine.Handlers</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="MyBot.Engine.Handlers.IndividualPirateHandler.html" title="IndividualPirateHandler" class="">IndividualPirateHandler</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Handlers.LogicedPirate.html" title="LogicedPirate" class="">LogicedPirate</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Handlers.LogicedPirateSquad.html" title="LogicedPirateSquad" class="">LogicedPirateSquad</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Handlers.PirateLogic.html" title="PirateLogic" class="">PirateLogic</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Handlers.PiratePlugin.html" title="PiratePlugin" class="">PiratePlugin</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Handlers.SquadLogic.html" title="SquadLogic" class="">SquadLogic</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Handlers.SquadPirateHandler.html" title="SquadPirateHandler" class="">SquadPirateHandler</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Engine.Handlers.SquadPlugin.html" title="SquadPlugin" class="">SquadPlugin</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="MyBot.Geometry.html" title="MyBot.Geometry" class="">MyBot.Geometry</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="MyBot.Geometry.Line.html" title="Line" class="">Line</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Geometry.Path.html" title="Path" class="">Path</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Geometry.Point.html" title="Point" class="">Point</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="MyBot.Plugins.Pirates.html" title="MyBot.Plugins.Pirates" class="">MyBot.Plugins.Pirates</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="MyBot.Plugins.Pirates.AsteroidDodger.html" title="AsteroidDodger" class="">AsteroidDodger</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Plugins.Pirates.Bomber.html" title="Bomber" class="">Bomber</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Plugins.Pirates.CamperPlugin.html" title="CamperPlugin" class="">CamperPlugin</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Plugins.Pirates.EmergencyCapsulePusherPlugin.html" title="EmergencyCapsulePusherPlugin" class="">EmergencyCapsulePusherPlugin</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Plugins.Pirates.PortalOptimizer.html" title="PortalOptimizer" class="">PortalOptimizer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="MyBot.Plugins.Squads.html" title="MyBot.Plugins.Squads" class="">MyBot.Plugins.Squads</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="MyBot.Plugins.Squads.AntiBomber.html" title="AntiBomber" class="">AntiBomber</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Plugins.Squads.BasicDefenseSquad-1.html" title="BasicDefenseSquad&lt;T&gt;" class="">BasicDefenseSquad&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Plugins.Squads.BoostedCapsuleSquadPlugin.html" title="BoostedCapsuleSquadPlugin" class="">BoostedCapsuleSquadPlugin</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Plugins.Squads.SquadCamperPlugin.html" title="SquadCamperPlugin" class="">SquadCamperPlugin</a>
+                          </li>
+                          <li class="">
+                            <a href="MyBot.Plugins.Squads.SquadPushPlugin.html" title="SquadPushPlugin" class="">SquadPushPlugin</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MyBot.Engine.PirateShip">
+  
+  
+  <h1 id="MyBot_Engine_PirateShip" data-uid="MyBot.Engine.PirateShip" class="text-break">Class PirateShip
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">haxe.lang.HxObject</span></div>
+    <div class="level2"><span class="xref">Pirates.SkillzObject</span></div>
+    <div class="level3"><span class="xref">Pirates.MapObject</span></div>
+    <div class="level4"><span class="xref">PirateShip</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">haxe.lang.IHxObject</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Pirates.MapObject.__hx_ctor_Pirates_MapObject(Pirates.MapObject)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.MapObject.Distance(Pirates.MapObject)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.MapObject.InRange(Pirates.MapObject, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.MapObject.InMap()</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.MapObject.__hx_getField(System.String, System.Int32, System.Boolean, System.Boolean, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.MapObject.__hx_invokeField(System.String, System.Int32, Array)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject._game</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.__classNormalizedFields</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.Type</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject._objectId</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.__hx_ctor_Pirates_SkillzObject(Pirates.SkillzObject)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject._getNormalizedFields(Pirates.SkillzObject, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.__normalizeName(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.hashCode()</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.toString()</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.__hx_setField_f(System.String, System.Int32, System.Double, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.__hx_setField(System.String, System.Int32, System.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.__hx_getField_f(System.String, System.Int32, System.Boolean, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Pirates.SkillzObject.__hx_getFields(Array&lt;System.Object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">haxe.lang.HxObject.__hx_ctor_haxe_lang_HxObject(haxe.lang.HxObject)</span>
+    </div>
+    <div>
+      <span class="xref">haxe.lang.HxObject.__hx_deleteField(System.String, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">haxe.lang.HxObject.__hx_lookupField(System.String, System.Int32, System.Boolean, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">haxe.lang.HxObject.__hx_lookupField_f(System.String, System.Int32, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">haxe.lang.HxObject.__hx_lookupSetField(System.String, System.Int32, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">haxe.lang.HxObject.__hx_lookupSetField_f(System.String, System.Int32, System.Double)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MyBot.Engine.html">MyBot.Engine</a></h6>
+  <h6><strong>Assembly</strong>: Skillz2018.dll</h6>
+  <h5 id="MyBot_Engine_PirateShip_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PirateShip : MapObject, IHxObject</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="MyBot_Engine_PirateShip__ctor_" data-uid="MyBot.Engine.PirateShip.#ctor*"></a>
+  <h4 id="MyBot_Engine_PirateShip__ctor_Pirates_Pirate_" data-uid="MyBot.Engine.PirateShip.#ctor(Pirates.Pirate)">PirateShip(Pirate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PirateShip(Pirate pirate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Pirate</span></td>
+        <td><span class="parametername">pirate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="MyBot_Engine_PirateShip_Alive_" data-uid="MyBot.Engine.PirateShip.Alive*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Alive" data-uid="MyBot.Engine.PirateShip.Alive">Alive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Alive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_CanPlay_" data-uid="MyBot.Engine.PirateShip.CanPlay*"></a>
+  <h4 id="MyBot_Engine_PirateShip_CanPlay" data-uid="MyBot.Engine.PirateShip.CanPlay">CanPlay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanPlay { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_Capsule_" data-uid="MyBot.Engine.PirateShip.Capsule*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Capsule" data-uid="MyBot.Engine.PirateShip.Capsule">Capsule</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Capsule Capsule { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Capsule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_ExpectedLocation_" data-uid="MyBot.Engine.PirateShip.ExpectedLocation*"></a>
+  <h4 id="MyBot_Engine_PirateShip_ExpectedLocation" data-uid="MyBot.Engine.PirateShip.ExpectedLocation">ExpectedLocation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Location ExpectedLocation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Location</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_HasCapsule_" data-uid="MyBot.Engine.PirateShip.HasCapsule*"></a>
+  <h4 id="MyBot_Engine_PirateShip_HasCapsule" data-uid="MyBot.Engine.PirateShip.HasCapsule">HasCapsule</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCapsule { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_Id_" data-uid="MyBot.Engine.PirateShip.Id*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Id" data-uid="MyBot.Engine.PirateShip.Id">Id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_InitialLocation_" data-uid="MyBot.Engine.PirateShip.InitialLocation*"></a>
+  <h4 id="MyBot_Engine_PirateShip_InitialLocation" data-uid="MyBot.Engine.PirateShip.InitialLocation">InitialLocation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Location InitialLocation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Location</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_IsAliveAfterTurn_" data-uid="MyBot.Engine.PirateShip.IsAliveAfterTurn*"></a>
+  <h4 id="MyBot_Engine_PirateShip_IsAliveAfterTurn" data-uid="MyBot.Engine.PirateShip.IsAliveAfterTurn">IsAliveAfterTurn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAliveAfterTurn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_IsHeavy_" data-uid="MyBot.Engine.PirateShip.IsHeavy*"></a>
+  <h4 id="MyBot_Engine_PirateShip_IsHeavy" data-uid="MyBot.Engine.PirateShip.IsHeavy">IsHeavy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHeavy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_IsNormal_" data-uid="MyBot.Engine.PirateShip.IsNormal*"></a>
+  <h4 id="MyBot_Engine_PirateShip_IsNormal" data-uid="MyBot.Engine.PirateShip.IsNormal">IsNormal</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNormal { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_IsOurs_" data-uid="MyBot.Engine.PirateShip.IsOurs*"></a>
+  <h4 id="MyBot_Engine_PirateShip_IsOurs" data-uid="MyBot.Engine.PirateShip.IsOurs">IsOurs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOurs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_Location_" data-uid="MyBot.Engine.PirateShip.Location*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Location" data-uid="MyBot.Engine.PirateShip.Location">Location</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Location Location { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Location</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_MaxSpeed_" data-uid="MyBot.Engine.PirateShip.MaxSpeed*"></a>
+  <h4 id="MyBot_Engine_PirateShip_MaxSpeed" data-uid="MyBot.Engine.PirateShip.MaxSpeed">MaxSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxSpeed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_NumberOfPushesForCapsuleLoss_" data-uid="MyBot.Engine.PirateShip.NumberOfPushesForCapsuleLoss*"></a>
+  <h4 id="MyBot_Engine_PirateShip_NumberOfPushesForCapsuleLoss" data-uid="MyBot.Engine.PirateShip.NumberOfPushesForCapsuleLoss">NumberOfPushesForCapsuleLoss</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumberOfPushesForCapsuleLoss { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_Owner_" data-uid="MyBot.Engine.PirateShip.Owner*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Owner" data-uid="MyBot.Engine.PirateShip.Owner">Owner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player Owner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_PushDistance_" data-uid="MyBot.Engine.PirateShip.PushDistance*"></a>
+  <h4 id="MyBot_Engine_PirateShip_PushDistance" data-uid="MyBot.Engine.PirateShip.PushDistance">PushDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PushDistance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_PushRange_" data-uid="MyBot.Engine.PirateShip.PushRange*"></a>
+  <h4 id="MyBot_Engine_PirateShip_PushRange" data-uid="MyBot.Engine.PirateShip.PushRange">PushRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PushRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_PushReloadTurns_" data-uid="MyBot.Engine.PirateShip.PushReloadTurns*"></a>
+  <h4 id="MyBot_Engine_PirateShip_PushReloadTurns" data-uid="MyBot.Engine.PirateShip.PushReloadTurns">PushReloadTurns</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PushReloadTurns { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_SpawnTurns_" data-uid="MyBot.Engine.PirateShip.SpawnTurns*"></a>
+  <h4 id="MyBot_Engine_PirateShip_SpawnTurns" data-uid="MyBot.Engine.PirateShip.SpawnTurns">SpawnTurns</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SpawnTurns { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_StickyBombs_" data-uid="MyBot.Engine.PirateShip.StickyBombs*"></a>
+  <h4 id="MyBot_Engine_PirateShip_StickyBombs" data-uid="MyBot.Engine.PirateShip.StickyBombs">StickyBombs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StickyBomb[] StickyBombs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.StickyBomb</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_TurnsToRevive_" data-uid="MyBot.Engine.PirateShip.TurnsToRevive*"></a>
+  <h4 id="MyBot_Engine_PirateShip_TurnsToRevive" data-uid="MyBot.Engine.PirateShip.TurnsToRevive">TurnsToRevive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TurnsToRevive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_UniqueId_" data-uid="MyBot.Engine.PirateShip.UniqueId*"></a>
+  <h4 id="MyBot_Engine_PirateShip_UniqueId" data-uid="MyBot.Engine.PirateShip.UniqueId">UniqueId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UniqueId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MyBot_Engine_PirateShip_CanPush_" data-uid="MyBot.Engine.PirateShip.CanPush*"></a>
+  <h4 id="MyBot_Engine_PirateShip_CanPush_Pirates_SpaceObject_" data-uid="MyBot.Engine.PirateShip.CanPush(Pirates.SpaceObject)">CanPush(SpaceObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanPush(SpaceObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.SpaceObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_CanStickBomb_" data-uid="MyBot.Engine.PirateShip.CanStickBomb*"></a>
+  <h4 id="MyBot_Engine_PirateShip_CanStickBomb_Pirates_SpaceObject_" data-uid="MyBot.Engine.PirateShip.CanStickBomb(Pirates.SpaceObject)">CanStickBomb(SpaceObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanStickBomb(SpaceObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.SpaceObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_GetEnemyShipsInPushRange_" data-uid="MyBot.Engine.PirateShip.GetEnemyShipsInPushRange*"></a>
+  <h4 id="MyBot_Engine_PirateShip_GetEnemyShipsInPushRange" data-uid="MyBot.Engine.PirateShip.GetEnemyShipsInPushRange">GetEnemyShipsInPushRange()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Squad GetEnemyShipsInPushRange()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.Squad.html">Squad</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_GetLocation_" data-uid="MyBot.Engine.PirateShip.GetLocation*"></a>
+  <h4 id="MyBot_Engine_PirateShip_GetLocation" data-uid="MyBot.Engine.PirateShip.GetLocation">GetLocation()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Location GetLocation()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Location</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Pirates.MapObject.GetLocation()</span></div>
+  <a id="MyBot_Engine_PirateShip_GetMyShipsInPushRange_" data-uid="MyBot.Engine.PirateShip.GetMyShipsInPushRange*"></a>
+  <h4 id="MyBot_Engine_PirateShip_GetMyShipsInPushRange" data-uid="MyBot.Engine.PirateShip.GetMyShipsInPushRange">GetMyShipsInPushRange()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Squad GetMyShipsInPushRange()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.Squad.html">Squad</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_GetPiratesInPushRange_" data-uid="MyBot.Engine.PirateShip.GetPiratesInPushRange*"></a>
+  <h4 id="MyBot_Engine_PirateShip_GetPiratesInPushRange" data-uid="MyBot.Engine.PirateShip.GetPiratesInPushRange">GetPiratesInPushRange()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Squad GetPiratesInPushRange()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.Squad.html">Squad</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_GetPiratesInRange_" data-uid="MyBot.Engine.PirateShip.GetPiratesInRange*"></a>
+  <h4 id="MyBot_Engine_PirateShip_GetPiratesInRange_System_Int32_" data-uid="MyBot.Engine.PirateShip.GetPiratesInRange(System.Int32)">GetPiratesInRange(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Squad GetPiratesInRange(int range)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">range</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.Squad.html">Squad</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_InPushRange_" data-uid="MyBot.Engine.PirateShip.InPushRange*"></a>
+  <h4 id="MyBot_Engine_PirateShip_InPushRange_Pirates_MapObject_" data-uid="MyBot.Engine.PirateShip.InPushRange(Pirates.MapObject)">InPushRange(MapObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool InPushRange(MapObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.MapObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_LogicPirate_" data-uid="MyBot.Engine.PirateShip.LogicPirate*"></a>
+  <h4 id="MyBot_Engine_PirateShip_LogicPirate_MyBot_Engine_Handlers_PirateLogic_" data-uid="MyBot.Engine.PirateShip.LogicPirate(MyBot.Engine.Handlers.PirateLogic)">LogicPirate(PirateLogic)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LogicedPirate LogicPirate(PirateLogic logic)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.Handlers.PirateLogic.html">PirateLogic</a></td>
+        <td><span class="parametername">logic</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.Handlers.LogicedPirate.html">LogicedPirate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_Push_" data-uid="MyBot.Engine.PirateShip.Push*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Push_MyBot_Engine_PirateShip_Pirates_MapObject_" data-uid="MyBot.Engine.PirateShip.Push(MyBot.Engine.PirateShip,Pirates.MapObject)">Push(PirateShip, MapObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Push(PirateShip target, MapObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.PirateShip.html">PirateShip</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Pirates.MapObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_Push_" data-uid="MyBot.Engine.PirateShip.Push*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Push_Pirates_SpaceObject_Pirates_MapObject_" data-uid="MyBot.Engine.PirateShip.Push(Pirates.SpaceObject,Pirates.MapObject)">Push(SpaceObject, MapObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Push(SpaceObject target, MapObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.SpaceObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Pirates.MapObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_Sail_" data-uid="MyBot.Engine.PirateShip.Sail*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Sail_Pirates_MapObject_System_Func_Pirates_SpaceObject_System_Int32__System_Boolean_" data-uid="MyBot.Engine.PirateShip.Sail(Pirates.MapObject,System.Func{Pirates.SpaceObject,System.Int32},System.Boolean)">Sail(MapObject, Func&lt;SpaceObject, Int32&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Sail(MapObject loc, Func&lt;SpaceObject, int&gt; AvoidingDistanceSelector, bool EnableWarps = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.MapObject</span></td>
+        <td><span class="parametername">loc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">Pirates.SpaceObject</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">AvoidingDistanceSelector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">EnableWarps</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_Sail_" data-uid="MyBot.Engine.PirateShip.Sail*"></a>
+  <h4 id="MyBot_Engine_PirateShip_Sail_Pirates_MapObject_System_Int32_System_Boolean_" data-uid="MyBot.Engine.PirateShip.Sail(Pirates.MapObject,System.Int32,System.Boolean)">Sail(MapObject, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Sail(MapObject loc, int AvoidingDistance = 0, bool EnableWarps = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.MapObject</span></td>
+        <td><span class="parametername">loc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">AvoidingDistance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">EnableWarps</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_StickBomb_" data-uid="MyBot.Engine.PirateShip.StickBomb*"></a>
+  <h4 id="MyBot_Engine_PirateShip_StickBomb_Pirates_SpaceObject_" data-uid="MyBot.Engine.PirateShip.StickBomb(Pirates.SpaceObject)">StickBomb(SpaceObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool StickBomb(SpaceObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.SpaceObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_SwapStates_" data-uid="MyBot.Engine.PirateShip.SwapStates*"></a>
+  <h4 id="MyBot_Engine_PirateShip_SwapStates_MyBot_Engine_PirateShip_" data-uid="MyBot.Engine.PirateShip.SwapStates(MyBot.Engine.PirateShip)">SwapStates(PirateShip)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SwapStates(PirateShip other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.PirateShip.html">PirateShip</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_ToString_" data-uid="MyBot.Engine.PirateShip.ToString*"></a>
+  <h4 id="MyBot_Engine_PirateShip_ToString" data-uid="MyBot.Engine.PirateShip.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Pirates.SkillzObject.ToString()</span></div>
+  <a id="MyBot_Engine_PirateShip_TurnsToReach_" data-uid="MyBot.Engine.PirateShip.TurnsToReach*"></a>
+  <h4 id="MyBot_Engine_PirateShip_TurnsToReach_Pirates_MapObject_" data-uid="MyBot.Engine.PirateShip.TurnsToReach(Pirates.MapObject)">TurnsToReach(MapObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TurnsToReach(MapObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.MapObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="MyBot_Engine_PirateShip_op_Explicit_" data-uid="MyBot.Engine.PirateShip.op_Explicit*"></a>
+  <h4 id="MyBot_Engine_PirateShip_op_Explicit_Pirates_Pirate__MyBot_Engine_PirateShip" data-uid="MyBot.Engine.PirateShip.op_Explicit(Pirates.Pirate)~MyBot.Engine.PirateShip">Explicit(Pirate to PirateShip)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator PirateShip(Pirate me)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Pirate</span></td>
+        <td><span class="parametername">me</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.PirateShip.html">PirateShip</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MyBot_Engine_PirateShip_op_Implicit_" data-uid="MyBot.Engine.PirateShip.op_Implicit*"></a>
+  <h4 id="MyBot_Engine_PirateShip_op_Implicit_MyBot_Engine_PirateShip__Pirates_Pirate" data-uid="MyBot.Engine.PirateShip.op_Implicit(MyBot.Engine.PirateShip)~Pirates.Pirate">Implicit(PirateShip to Pirate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Pirate(PirateShip me)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyBot.Engine.PirateShip.html">PirateShip</a></td>
+        <td><span class="parametername">me</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Pirates.Pirate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">haxe.lang.IHxObject</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="MyBot.Engine.Extensions.html#MyBot_Engine_Extensions_Transform__1___0_System_Boolean_System_Func___0___0__">Extensions.Transform&lt;T&gt;(T, Boolean, Func&lt;T, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.Extensions.html#MyBot_Engine_Extensions_WithSideEffect__1___0_System_Func___0_System_Object__">Extensions.WithSideEffect&lt;T&gt;(T, Func&lt;T, Object&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_ClosestBorder_Pirates_MapObject_">EngineExtensions.ClosestBorder(MapObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_DistanceFromBorder_Pirates_MapObject_">EngineExtensions.DistanceFromBorder(MapObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_IsBetween_Pirates_MapObject_Pirates_MapObject_Pirates_MapObject_">EngineExtensions.IsBetween(MapObject, MapObject, MapObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_Serialize_Pirates_MapObject_">EngineExtensions.Serialize(MapObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_Add_Pirates_MapObject_System_Int32_System_Int32_">EngineExtensions.Add(MapObject, Int32, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_Add_Pirates_MapObject_Pirates_MapObject_">EngineExtensions.Add(MapObject, MapObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_Multiply_Pirates_MapObject_System_Int32_">EngineExtensions.Multiply(MapObject, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_Divide_Pirates_MapObject_System_Int32_">EngineExtensions.Divide(MapObject, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_Normal_Pirates_MapObject_">EngineExtensions.Normal(MapObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="MyBot.Engine.EngineExtensions.html#MyBot_Engine_EngineExtensions_Normalized_Pirates_MapObject_">EngineExtensions.Normalized(MapObject)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

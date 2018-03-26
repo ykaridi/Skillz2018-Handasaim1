@@ -1,0 +1,813 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Yonatan/Documents/Visual Studio 2017/Projects/Skillz2018/Skillz2018",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "VzPcvyOb+kCYnLMIsaRdvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/individual_strategy.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/individual_strategy.html",
+          "hash": "3euI2ppek9jyuPgIyVGMjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "Ne27L413KyMIJgdhKMsWYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_antibomber.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_antibomber.html",
+          "hash": "Dwa4wpYoOInrp6qoPfq1dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_asteroiddodger.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_asteroiddodger.html",
+          "hash": "zP1HVtofvuJjvXw+FKfHLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_bomber.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_bomber.html",
+          "hash": "qGQXjE+Qw2y/ZF4ELU30Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_capsulecollector.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_capsulecollector.html",
+          "hash": "YYbOTWEtqXNH7ziuC9KOdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_defensesquad.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_defensesquad.html",
+          "hash": "iQTptVV871lfh+B8ZMZYKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_emergencycapsulepusher.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_emergencycapsulepusher.html",
+          "hash": "gopaOJLEdIuyNmFYe4hjVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_individualcamper.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_individualcamper.html",
+          "hash": "CUnWifU3tMqw9iCP4WKNrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_portaloptimizer.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_portaloptimizer.html",
+          "hash": "J4uVS/S9EkcUubMxRaNLOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_squadcamper.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_squadcamper.html",
+          "hash": "/+yZQIaxifdw/yKsyU03iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/plugin_squadpush.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/plugin_squadpush.html",
+          "hash": "7GOE6LAjY1KWWf8k+FggAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/recommendedimports.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/recommendedimports.html",
+          "hash": "Pxw/LS4au6/H5Z2i7POUMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/squad_strategy.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/squad_strategy.html",
+          "hash": "MRKCT5IkbHRS7WakdkDq4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/templated_strategy.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/templated_strategy.html",
+          "hash": "pk2oVHyA9jTanTXMqQMUYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/usefulfunctions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/usefulfunctions.html",
+          "hash": "b223mTE9i9dza9u/e6SE5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "202iGAvy0sr4tY99qemefQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Bot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Bot.html",
+          "hash": "knhq/Tjtox2/REQDXPCfVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.DataStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.DataStore.html",
+          "hash": "ESBalRZ4JFYhg3z67FXJDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.DefenseStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.DefenseStats.html",
+          "hash": "ZlfLm7Yc1TU2jJmi05bPHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.Delegates.DefenseFunction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.Delegates.DefenseFunction-1.html",
+          "hash": "jkUJAgS3VSU2xlOeXWORcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.Delegates.FilterFunction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.Delegates.FilterFunction-1.html",
+          "hash": "r/PP6a9JoVhz4FZXPZ4L2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.Delegates.PirateForeach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.Delegates.PirateForeach.html",
+          "hash": "IdIt/D9Si8cB0uNuUn/KPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.Delegates.PushMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.Delegates.PushMapper.html",
+          "hash": "J6DTi0DRjvWoltopECRy9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.Delegates.ScoringFunction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.Delegates.ScoringFunction-1.html",
+          "hash": "RrDrlYR1mBmtYLJzfWmKJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.Delegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.Delegates.html",
+          "hash": "009M9EN3kcKf1qGtrOZCoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.PushMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.PushMapping.html",
+          "hash": "wb3i7puKw+PwfX+unrvD8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Delegates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Delegates.html",
+          "hash": "zqnlgKSxLQ7v8FVXAV35sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.EngineExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.EngineExtensions.html",
+          "hash": "fncyCiEjPAZK/3YjJM7Atw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Extensions.html",
+          "hash": "ObOrJpj3A5a6bzpAlkEM+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.GameEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.GameEngine.html",
+          "hash": "hgIUBU8BCuiPsMCHnmYvvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.IndividualPirateHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.IndividualPirateHandler.html",
+          "hash": "508LeaFdWRBVooGv2hx31g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.LogicedPirate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.LogicedPirate.html",
+          "hash": "ArkMGpd1g1/Tv7XLxot2AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.LogicedPirateSquad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.LogicedPirateSquad.html",
+          "hash": "OxwN58a2mMGb+oPv8WfBFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.PirateLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.PirateLogic.html",
+          "hash": "z6h2TuYpwcFuz4J8paDkeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.PiratePlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.PiratePlugin.html",
+          "hash": "gndKoaR5DCtA/ApEQYx2Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.SquadLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.SquadLogic.html",
+          "hash": "5BtQMn31XYEDgHjo3HNnAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.SquadPirateHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.SquadPirateHandler.html",
+          "hash": "WrAADDnWH+7beSjKjYZvOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.SquadPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.SquadPlugin.html",
+          "hash": "0hd/ARlqV5eMGUW0RPECqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Handlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Handlers.html",
+          "hash": "L3gC4w1iHh8mg6heiML8jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.PirateShip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.PirateShip.html",
+          "hash": "JYeKKHTCKfdgR9GTB34AxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Squad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Squad.html",
+          "hash": "43GZR/WGha07gHEfVTUuaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Tuple-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Tuple-1.html",
+          "hash": "Yj2t1GRbI9UBtwrzBsr+cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Tuple-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Tuple-2.html",
+          "hash": "MyARZLzei5L7igIkCQjcbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.Tuple-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.Tuple-3.html",
+          "hash": "txzsbxJco+qq3dgsy8B9xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Engine.html",
+          "hash": "JPJmcpcYFWhV/otx2AePng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Geometry.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Geometry.Line.html",
+          "hash": "CQhcSN2b+MbhG2miZtiGYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Geometry.Path.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Geometry.Path.html",
+          "hash": "iU3FsVgOUVVuiU1ETPEndA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Geometry.Point.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Geometry.Point.html",
+          "hash": "SNYO3ZLMI71lQ0qz/4k8yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Geometry.html",
+          "hash": "srqRVz/1CR+HBTQc6EsLPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Pirates.AsteroidDodger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Pirates.AsteroidDodger.html",
+          "hash": "R4bQ8/wvmbUkqA0DP+fzOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Pirates.Bomber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Pirates.Bomber.html",
+          "hash": "vUeJDLsTGCsbv00hP4LEyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Pirates.CamperPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Pirates.CamperPlugin.html",
+          "hash": "ernzpec8bssxYgYm8UvEnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Pirates.EmergencyCapsulePusherPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Pirates.EmergencyCapsulePusherPlugin.html",
+          "hash": "sjlXyzYbgNsgb8G4KBTrvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Pirates.PortalOptimizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Pirates.PortalOptimizer.html",
+          "hash": "Lfpqxjy7T1JE24WpvEkokg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Pirates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Pirates.html",
+          "hash": "XijJvuJnhynE6/HZEYFhfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Squads.AntiBomber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Squads.AntiBomber.html",
+          "hash": "qyUeO1R0mjFjezsQleoJTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Squads.BasicDefenseSquad-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Squads.BasicDefenseSquad-1.html",
+          "hash": "K5KVtykW6k+n1plXUNATfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Squads.BoostedCapsuleSquadPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Squads.BoostedCapsuleSquadPlugin.html",
+          "hash": "pBtuqHLHgcc9xkbafi/NdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Squads.SquadCamperPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Squads.SquadCamperPlugin.html",
+          "hash": "RtmdJIB0uzWqTgD+j3sKAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Squads.SquadPushPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Squads.SquadPushPlugin.html",
+          "hash": "LPlLwEKCQbe0h1DGMZTd/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.Plugins.Squads.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.Plugins.Squads.html",
+          "hash": "QoGXux6ptsMeKXr3g/SX2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MyBot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyBot.html",
+          "hash": "T9xsIZlTBu/4uEAul9HqKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
